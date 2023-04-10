@@ -1,0 +1,45 @@
+.new-expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-expense__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-expense__actions{
+ position: relative;
+    left: 51px;
+    top: 18px;
+    text-align: right;
+   
+}
+
+/* .flex-button-container{
+ 
+} */
+
+.new-expense__control input{
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+    outline: none;
+
+}
+
+.new-expense__control input:focus {
+  border: 2px solid #ccc;
+}
